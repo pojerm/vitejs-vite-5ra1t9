@@ -7,17 +7,14 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    const baseStyle=css`
-    display: flex;
-    align-items: center;
-    justify-content: center;`
-    <div className="App">
-      <Global
-        styles={baseStyle}
-        }
-      `}
+    <div>
+      <Counter
+        numberColor="green"
+        textSize="90px"
+        handleIncrese={(count) => {
+          alert(count);
+        }}
       />
-      <Counter numberColor="green" textSize="90px" />
     </div>
   );
 }
