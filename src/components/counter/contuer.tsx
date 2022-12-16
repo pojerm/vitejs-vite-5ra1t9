@@ -31,6 +31,13 @@ const Counter = ({
         >
           -
         </button>
+        <button
+          onClick={() => {
+            setConterValue(0);
+          }}
+        >
+          Reset
+        </button>
       </div>
     </div>
   );

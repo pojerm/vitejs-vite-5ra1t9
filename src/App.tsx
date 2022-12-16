@@ -11,9 +11,9 @@ function App() {
       <Counter
         numberColor="green"
         textSize="90px"
-        handleIncrese={(count) => {
-          alert(count);
-        }}
+        // handleIncrese={(count) => {
+        //   alert(count);
+        // }}
       />
     </div>
   );
